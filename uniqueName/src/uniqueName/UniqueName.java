@@ -2,7 +2,7 @@ package uniqueName;
 
 import org.junit.Test;
 
-public class uniqueName {
+public class UniqueName {
 	
 	public String getUniqueName ()
 	{
@@ -26,7 +26,7 @@ public class uniqueName {
 	@Test
 	public void GetName()
 	{
-		uniqueName userID = new uniqueName();
+		UniqueName userID = new UniqueName();
 		
 		System.out.println(userID.getUniqueName());
 	}
